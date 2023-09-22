@@ -1,0 +1,6 @@
+*{
+    box-sizing: border-box;
+}
+.Header{
+    background-image: url("../../Images/HeaderBG.png");
+}
