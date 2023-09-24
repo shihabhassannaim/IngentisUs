@@ -19,7 +19,7 @@ const Advertise = () => {
                 <div>
                 <img src={WebDevelopment} alt="" />
                     <h3>Web Development.</h3>
-                    <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                    <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
                 </div>
                 <div>
                 <img src={digitalMarketing} alt="" />
