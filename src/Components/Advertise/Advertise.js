@@ -5,26 +5,26 @@ import digitalMarketing from '../../Images/Digital campaign.png'
 
 const Advertise = () => {
     return (
-        <div>
-            <div>
-                <p>Quality features.</p>
-                <p>Meet exciting feature of services</p>
+        <div className='mt-20'>
+            <div className='text-center'>
+                <p className='text-[#244886] text-xl tracking-widest'>Quality features.</p>
+                <p className='text-5xl font-semibold mt-4'>Meet exciting feature of services</p>
             </div>
-            <div>
-                <div>
-                    <img src={AppDevelopment} alt="" />
-                    <h3>App Development.</h3>
-                    <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+            <div className='flex ml-16 text-center mt-20'>
+                <div className='w-1/3'>
+                    <img className='ml-36 mb-10 h-24 w-24' src={AppDevelopment} alt="" />
+                    <h3 className='font-bold text-xl mb-10'>App Development.</h3>
+                    <p className='text-[#343D48] tracking-wide'>Get your blood tests delivered at <br /> home collect a sample from the <br />your blood tests.</p>
                 </div>
-                <div>
-                <img src={WebDevelopment} alt="" />
-                    <h3>Web Development.</h3>
-                    <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                <div className='w-1/3'>
+                <img className='ml-36 mb-10 h-24 w-24' src={WebDevelopment} alt="" />
+                    <h3 className='font-bold text-xl mb-10'>Web Development.</h3>
+                    <p className='text-[#343D48] tracking-wide'>Get your blood tests delivered at <br /> home collect a sample from the <br /> your blood tests.</p>
                 </div>
-                <div>
-                <img src={digitalMarketing} alt="" />
-                    <h3>Digital Marketing</h3>
-                    <p>Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                <div className='w-1/3'>
+                <img className='ml-36 mb-10 h-24 w-24' src={digitalMarketing} alt="" />
+                    <h3 className='font-bold text-xl mb-10'>Digital Marketing</h3>
+                    <p className='text-[#343D48] tracking-wide'>Get your blood tests delivered at <br /> home collect a sample from the <br />your blood tests.</p>
                 </div>
             </div>
         </div>

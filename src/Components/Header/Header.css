@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .Header{
-    background-image: url("../../Images/HeaderBG.png");   
+    background-image: url("../../Images/header.png");   
     height: 700px;
     border-radius: 0px 0px 50% 0px;
 }
