@@ -1,9 +1,13 @@
 import React from 'react';
+import CoreFeaturesAnotherPic from '../../Images/Core features another.png';
 
 const CoreFeaturesAnother = () => {
     return (
         <div>
-            <h1>This is core features</h1>
+            <div></div>
+            <div>
+                <img src={CoreFeaturesAnotherPic} alt="" />
+            </div>
         </div>
     );
 };
