@@ -1,4 +1,5 @@
 import './App.css';
+import About from './Components/About/About';
 import Advertise from './Components/Advertise/Advertise';
 import CoreFeatures from './Components/Advertise/CoreFeatures';
 import CoreFeaturesAnother from './Components/Advertise/CoreFeaturesAnother';
@@ -8,13 +9,14 @@ import Testimunial from './Components/Testimunial/Testimunial';
 
 function App() {
   return (
-    <div>
+    <div className='bg-gray-200'>
       <Home />
       <Advertise />
       <CoreFeatures />
       <CoreFeaturesAnother />
       <MoreAbout />
       <Testimunial />
+      <About/>
     </div>
   );
 }
