@@ -1,21 +1,14 @@
 import React from 'react';
-import Logo from '../../Images/logo.png'
 import paypal from '../../Images/paypal.png'
 import google from '../../Images/google.png'
 import Dropbox from '../../Images/Dropbox.png'
 import './Header.css'
+import Navbar from './Navbar';
 
 const Header = () => {
     return (
         <div className='Header pl-24 pt-5 bg-container'>
-            <div className='flex text-white'>
-                <div ><img src={Logo} alt="" /></div>
-                <div className='mt-3 ml-32'><h4>Home</h4></div>
-                <div className='mt-3 ml-14'><h4>Advertise</h4></div>
-                <div className='mt-3 ml-14'><h4>Support</h4></div>
-                <div className='mt-3 ml-14'><h4>Contact</h4></div>
-                <div className='mt-2 ml-40 '><button className='button py-1.5 px-4 rounded-3xl'>Get Started</button></div>
-            </div>
+            <Navbar/>
             <div className='mt-24 text-white'>
                 <div className='header-text font-bold flex ml-9 text-5xl justify-start tracking-wider'><p>Experience Your<br/> Ultimate Digital <br />
 Services</p></div>

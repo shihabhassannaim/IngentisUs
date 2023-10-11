@@ -2,6 +2,7 @@ import React from 'react';
 import AppDevelopment from '../../Images/appDevelopment.png'
 import WebDevelopment from '../../Images/WebDevelopment.png'
 import digitalMarketing from '../../Images/Digital campaign.png'
+import Header from '../Header/Header';
 
 const Advertise = () => {
     return (
