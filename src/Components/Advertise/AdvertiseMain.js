@@ -7,7 +7,6 @@ import Navbar from '../Header/Navbar';
 const AdvertiseMain = () => {
     return (
         <div>
-            <Navbar/>
             <Advertise/>
             <CoreFeatures/>
             <CoreFeaturesAnother/>
