@@ -3,7 +3,7 @@
 }
 .Header{
     background-image: url("../../Images/header.png");   
-    height: 700px;
+    
     border-radius: 0px 0px 50% 0px;
 }
 .button{
@@ -12,3 +12,16 @@
 .header-text {
     line-height: 70px;
 }
+@media screen and (max-width: 680px) {
+    .main-text{
+        color: white ;
+    }
+    .get-start button{
+        color: white;
+        background-color: black;
+    }
+    .Header{
+        background-color: rgb(5, 0, 70);
+        background-image: none;
+    }
+  }
