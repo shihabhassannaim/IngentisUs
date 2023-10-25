@@ -6,8 +6,8 @@ const Navbar = () => {
     return (
         <div>
                 <div className='flex text-white sm:'>
-                <div><img className=' sm:shrink-0' src={Logo} alt="" /></div>
-                <div className='flex text-white sm:hidden ... '>
+                <div><img className=' sm:shrink-1' src={Logo} alt="" /></div>
+                <div className='flex text-white sm:hidden ... lg:inline-flex '>
                 <div className='mt-3 ml-32'><Link to='/home'>Home</Link></div>
                 <div className='mt-3 ml-14'><Link to='/advertise'>Advertise</Link></div>
                 <div className='mt-3 ml-14 '><Link to='/support'>Support</Link></div>

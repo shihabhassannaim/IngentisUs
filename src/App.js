@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Components/Home/Home';
 import AdvertiseMain from './Components/Advertise/AdvertiseMain';
 import About from './Components/About/About';
+import NavbarTrial from './Components/Header/NavbarTrial';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Route path="/advertise" element={<AdvertiseMain/>}/>
         <Route path="/support" element={<About/>}/>
         <Route path="/contact" element={<About/>}/>
+        <Route path="/nav" element={<NavbarTrial/>}/>
+
       </Routes>
     </BrowserRouter>
   );
