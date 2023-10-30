@@ -7,14 +7,14 @@ import smartFeatures from '../../Images/SmartFeatures.png'
 
 const CoreFeatures = () => {
     return (
-        <div className='flex mt-24 ml-36'>
-            <div className='w-1/2 ml-12'>
+        <div className='md:flex mt-24 md:ml-36'>
+            <div className='md:w-1/2 md:ml-12 flex justify-center md:block '>
                 <img className='coreFeatures' src={coreFeaturesPicture} alt="" />
             </div>
             <div className='mt-16'>
-                <h5 className='font-bold text-[#244886]'>Core Features</h5>
-                <h1 className='text-2xl font-bold mt-2'>Smart Jackpots <br /> that you may love this <br /> anytime & anywhere</h1>
-                <div className='flex mt-10'>
+                <h5 className='font-bold text-[#244886] flex justify-center '>Core Features</h5>
+                <h1 className='text-2xl font-bold mt-2 flex justify-center text-center'>Smart Jackpots <br /> that you may love this <br /> anytime & anywhere</h1>
+                <div className='flex mt-10 justify-center '>
                     <div><img className='h-10 w-10 mr-5' src={smartFeatures} alt="" /></div>
                     <div>
                         <div><h5 className='text-sm font-bold'>Smart Features </h5>
@@ -22,7 +22,7 @@ const CoreFeatures = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex mt-3'>
+                <div className='flex mt-10 md:mt-3 justify-center '>
                 <div><img className='h-10 w-10 mr-5' src={secureContent} alt="" /></div>
                     <div>
                         <div><h5 className='text-sm font-bold'>Secure Contents </h5>

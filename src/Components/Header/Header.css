@@ -12,16 +12,17 @@
 .header-text {
     line-height: 70px;
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 768px) {
+    .Header{
+        background-image: url("../../Images/header.png");   
+        
+        border-radius: 0px 0px 0px 0px;
+    }
     .main-text{
         color: white ;
     }
-    .get-start button{
-        color: white;
-        background-color: black;
-    }
     .Header{
-        background-color: rgb(5, 0, 70);
+        background-color: #0F2137;
         background-image: none;
     }
   }
