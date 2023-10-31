@@ -7,9 +7,9 @@ import Navbar from './Navbar';
 
 const Header = () => {
     return (
-        <div className='Header sm:pl-10 md:pl-24 pt-5 bg-container pb-10'>
-            <Navbar/>
-            <div className='mt-14 md:mt-24 text-white'>
+        <div className='Header sm:pl-10 md:pl-24 pt-5 bg-container pb-10 '>
+            <Navbar />
+            <div className='mt-14 md:mt-24 text-white static z-0'>
                 <div className='main-text header-text font-bold text-center md:text-start flex ml-9 text-4xl md:text-5xl md:justify-start justify-center tracking-wider'><p>Experience Your<br/> Ultimate Digital <br />
 Services</p></div>
                 <div className='hidden md:block ml-10 mt-6 tracking-wider'><p>Get your blood tests delivered at let home collect sample <br /> from the victory of the managments that supplies best <br />
