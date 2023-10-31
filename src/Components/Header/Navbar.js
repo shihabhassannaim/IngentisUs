@@ -5,7 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
-    const [icon , setIcon] = useState(false);
+    const [icon , setIcon] = useState(true);
     const showIcon = () => {
        console.log(icon);
        setIcon(!icon);
