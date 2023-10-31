@@ -11,7 +11,7 @@ const Advertise = () => {
                 <p className='text-[#244886] text-base md:text-xl tracking-widest'>Quality features.</p>
                 <p className='text-2xl md:text-5xl font-semibold mt-4'>Meet exciting feature of services</p>
             </div>
-            <div className='md:flex ml-16 text-center mt-20'>
+            <div className='md:flex md:ml-16 text-center mt-20'>
                 <div className='md:w-1/3'>
                     <div className='flex justify-center'><img className='md:mb-10 mb-5 h-24 w-24' src={AppDevelopment} alt="" /></div>
                     <h3 className='font-bold text-xl mb-5 md:mb-10'>App Development.</h3>
